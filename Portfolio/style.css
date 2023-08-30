@@ -1,0 +1,289 @@
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    background-image: url(img/19683.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+
+nav {
+    background-color: #202124;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    left: 0px;
+    flex-direction: column;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 80px;
+    width: 120px;
+    margin-right: 1220px;
+}
+
+#define {
+    margin-right: 223px;
+    margin-left: -1212px;
+}
+
+.nav-item {
+    float: left;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial;
+    color: white;
+    position: relative;
+    top: 16px;
+    border-radius: 25px;
+    margin-top: -23;
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+    color: #b22222;
+}
+
+.content {
+    margin-top: 180px;
+    margin-bottom: -215px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a{
+    top: 370px;
+    position: relative;
+    right: 641px;
+    height: 53px;
+}
+
+.imgs {
+    height: 710px;
+    border-radius: 45px;
+    position: relative;
+    left: 138px;
+}
+
+span {
+    display: inline-block;
+    position: relative;
+    left: 77px;
+
+}
+
+.span-ai {
+    right: -953px;
+    bottom: 671px;
+    color: white;
+}
+.projects-section {
+    margin: 20px;
+    
+    
+  }
+  
+  .project-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: white;
+  }
+  
+  .project {
+    padding: 20px;
+    background-color: #202124;
+    border-radius: 5px;
+  }
+  
+  .project h2 {
+    margin-top: 0;
+  }
+  
+  .project p {
+    margin-bottom: 0;
+    color: white;
+    font-size: larger;
+  }
+  .project p a{
+    color: #b22222;
+    text-decoration: none;
+  }
+
+pre {
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+#def {
+    position: relative;
+    right: 48px;
+}
+
+#me {
+    height: 600px;
+    border-radius: 50%;
+    position: relative;
+    left: 1071px;
+
+}
+
+.icon {
+    height: 53px;
+    transition: 0.5s;
+    
+    margin-right: 48px;
+
+
+}
+
+.icon:hover {
+    height: 80px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about {
+    position: relative;
+    right: 784px;
+    top: 155px;
+    color: white;
+}
+
+.center {
+    width: auto;
+    margin: auto;
+    font-size: x-large;
+    text-align: center;
+    
+
+}
+
+.skills {
+    margin-right: 80px;
+    margin-left: 80px;
+    color: white;
+}
+
+.border {
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+    border: 2px solid white;
+    border-radius: 25px;
+    text-align: center;
+
+}
+.about,.center,.projects-section{
+    margin-top: 200px;
+}
+
+.cv-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #b22222;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.5s;
+    
+
+}
+
+.cv-link:hover {
+    background-color: #450202;
+    color: white;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+footer {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: -500;
+    background: #202124;
+    height: auto;
+    padding-top: 40px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: white;
+}
+h1{
+    color: white;
+}
+
+p {
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+
+#logo-footer{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#logo-footer a{
+    margin-right: 5px;
+
+}
+
